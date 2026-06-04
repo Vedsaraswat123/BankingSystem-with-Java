@@ -1,33 +1,83 @@
-# Rock Paper Scissors Game
+# Banking Management System
 
 ## Overview
-This is a simple console-based Rock-Paper-Scissors game developed in Java. The user plays against the computer, which generates random moves. The game continues until the user chooses to exit.
+
+The Banking Management System is a console-based Java application that simulates basic banking operations. It allows users to manage their account by performing transactions such as deposits, withdrawals, and viewing transaction history through a simple menu-driven interface.
+
+This project was developed using Core Java and demonstrates fundamental programming concepts including collections, loops, methods, conditional statements, and user input handling.
 
 ## Features
-- User vs Computer gameplay
-- Random computer move generation
-- Input validation
-- Win, Lose, and Draw detection
-- Exit option
+
+* Deposit Money
+* Withdraw Money
+* View Transaction History
+* Check Account Balance
+* Menu-Driven Console Interface
+* Transaction Record Management
 
 ## Technologies Used
-- Java
-- Scanner Class
-- Random Class
 
-## How to Run
-1. Clone the repository.
-2. Open the project in your Java IDE.
-3. Compile and run the `StonePaperS.java` file.
-4. Enter Rock, Paper, or Scissors to play.
+* Java
+* ArrayList
+* Scanner Class
+* Java Collections Framework
+
+## Project Structure
+
+```text
+Banking-Management-System-Java
+│
+├── src
+│   └── Main.java
+│
+└── README.md
+```
+
+## How It Works
+
+1. The user selects an operation from the menu.
+2. Money can be deposited into the account.
+3. Money can be withdrawn if sufficient balance is available.
+4. All transactions are stored and displayed through the transaction history feature.
+5. The application keeps track of the current account balance.
+
+## Sample Menu
+
+```text
+To check transaction history press 1
+To withdraw money press 2
+To deposit money press 3
+To transfer money press 4
+To exit press 5
+```
 
 ## Learning Outcomes
-- Java Fundamentals
-- Loops
-- Conditional Statements
-- Arrays
-- User Input Handling
-- Random Number Generation
+
+This project helped in understanding:
+
+* Core Java Programming
+* Collections Framework
+* ArrayList Operations
+* User Input Handling
+* Method Creation and Reusability
+* Conditional Statements
+* Menu-Driven Application Development
+
+## Future Enhancements
+
+* User Login and Authentication
+* Multiple User Accounts
+* Money Transfer Functionality
+* Database Integration using MySQL
+* File Handling for Data Persistence
+* Graphical User Interface (GUI)
+* Account Number Generation
+* ATM PIN Verification
 
 ## Author
-Ved Prakash Saraswat 
+
+Ved Prakash Saraswat
+
+## License
+
+This project is developed for learning and educational purposes.
